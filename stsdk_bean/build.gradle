@@ -55,8 +55,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.hsq.bean'
-                artifactId = 'hsq'
+                groupId = 'com.hsq.api'
+                artifactId = 'bean'
                 version = '1.0.0'
             }
         }

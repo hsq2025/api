@@ -2,8 +2,8 @@
 # compiler_version: 4.0.52
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.1"}
-# pg_map_id: 1fd4277
-# pg_map_hash: SHA-256 1fd42778b0c1a1d057b4a325ab6198d48624361e852d3dfd0b490fc5b28a1289
+# pg_map_id: cb0c5f6
+# pg_map_hash: SHA-256 cb0c5f692e66708004f221260c31cbd21d3dcdc79c5f0c40950e13198b73d747
 com.ldrobot.bean.AIDetectResultBean -> com.ldrobot.bean.AIDetectResultBean:
     1:1:void <init>():10:10 -> <init>
     1:1:long getTime():20:20 -> getTime
@@ -1268,88 +1268,90 @@ com.ldrobot.bean.LDRoom$1 -> com.ldrobot.bean.LDRoom$1:
     1:1:java.lang.Object[] newArray(int):292:292 -> newArray
     2:2:com.ldrobot.bean.LDRoom[] newArray(int):300:300 -> newArray
 com.ldrobot.bean.LDSweepMap -> com.ldrobot.bean.LDSweepMap:
-    1:1:void <clinit>():481:481 -> <clinit>
-    1:1:void <init>():60:60 -> <init>
-    2:40:void <init>(android.os.Parcel):440:478 -> <init>
+    1:1:void <clinit>():485:485 -> <clinit>
+    1:1:void <init>():61:61 -> <init>
+    2:41:void <init>(android.os.Parcel):443:482 -> <init>
     1:1:java.lang.Object clone():14:14 -> clone
-    2:14:com.ldrobot.bean.LDSweepMap clone():140:152 -> clone
-    1:1:com.ldrobot.bean.AiArea getAi_area():64:64 -> getAi_area
-    1:1:java.util.ArrayList getArea():229:229 -> getArea
-    1:1:int getAutoAreaId():84:84 -> getAutoAreaId
-    1:1:int getBase64_len():189:189 -> getBase64_len
-    1:1:int getChargeHandlePhi():269:269 -> getChargeHandlePhi
-    1:1:android.graphics.PointF getChargeHandlePoint():277:277 -> getChargeHandlePoint
-    1:1:int[] getChargeHandlePos():261:261 -> getChargeHandlePos
-    1:1:java.util.ArrayList getCleanArea():237:237 -> getCleanArea
-    1:1:long getCurPathUpdateTime():124:124 -> getCurPathUpdateTime
-    1:1:int getCurState():116:116 -> getCurState
-    1:1:int getHeight():165:165 -> getHeight
-    1:1:int getIsDoneNormal():100:100 -> getIsDoneNormal
-    1:1:int getIsDown():245:245 -> getIsDown
-    1:1:int getIsError():108:108 -> getIsError
-    1:1:int getLz4_len():173:173 -> getLz4_len
-    1:1:java.lang.String getMap():181:181 -> getMap
-    1:1:int getMapCreateType():354:354 -> getMapCreateType
-    1:1:int getMapDataOffsetLength():338:338 -> getMapDataOffsetLength
-    1:1:int getMapDataType():362:362 -> getMapDataType
-    1:1:int getMapID():76:76 -> getMapID
-    1:1:int getMapId():253:253 -> getMapId
-    1:1:float getMapOx():370:370 -> getMapOx
-    1:1:float getMapOy():378:378 -> getMapOy
-    1:1:int getPathId():92:92 -> getPathId
-    1:1:int getPixLen():346:346 -> getPixLen
-    1:1:float[][] getPosArray():221:221 -> getPosArray
-    1:1:float getResolution():197:197 -> getResolution
-    1:1:int getRoomCount():386:386 -> getRoomCount
-    1:1:java.lang.String getTag():289:289 -> getTag
-    1:1:long getUpdateTime():297:297 -> getUpdateTime
-    1:1:int getVer():132:132 -> getVer
-    1:1:int getWidth():157:157 -> getWidth
-    1:1:float getX_min():205:205 -> getX_min
-    1:1:float getY_min():213:213 -> getY_min
-    1:1:void setAi_area(com.ldrobot.bean.AiArea):68:68 -> setAi_area
-    1:1:void setArea(java.util.ArrayList):233:233 -> setArea
-    1:1:void setAutoAreaId(int):88:88 -> setAutoAreaId
-    1:1:void setBase64_len(int):193:193 -> setBase64_len
-    1:1:void setChargeHandlePhi(int):273:273 -> setChargeHandlePhi
-    1:1:void setChargeHandlePoint(android.graphics.PointF):72:72 -> setChargeHandlePoint
-    2:5:void setChargeHandlePoint():281:284 -> setChargeHandlePoint
-    1:1:void setChargeHandlePos(int[]):265:265 -> setChargeHandlePos
-    1:1:void setCleanArea(java.util.ArrayList):241:241 -> setCleanArea
-    1:1:void setCurPathUpdateTime(long):128:128 -> setCurPathUpdateTime
-    1:1:void setCurState(int):120:120 -> setCurState
-    1:1:void setHeight(int):169:169 -> setHeight
-    1:1:void setIsDoneNormal(int):104:104 -> setIsDoneNormal
-    1:1:void setIsDown(int):249:249 -> setIsDown
-    1:1:void setIsError(int):112:112 -> setIsError
-    1:1:void setLz4_len(int):177:177 -> setLz4_len
-    1:1:void setMap(java.lang.String):185:185 -> setMap
-    1:1:void setMapCreateType(int):358:358 -> setMapCreateType
-    1:1:void setMapDataOffsetLength(int):342:342 -> setMapDataOffsetLength
-    1:1:void setMapDataType(int):366:366 -> setMapDataType
-    1:1:void setMapID(int):80:80 -> setMapID
-    1:1:void setMapId(int):257:257 -> setMapId
-    1:1:void setMapOx(float):374:374 -> setMapOx
-    1:1:void setMapOy(float):382:382 -> setMapOy
-    1:1:void setPathId(int):96:96 -> setPathId
-    1:1:void setPixLen(int):350:350 -> setPixLen
-    1:1:void setPosArray(float[][]):225:225 -> setPosArray
-    1:1:void setResolution(float):201:201 -> setResolution
-    1:1:void setRoomCount(int):390:390 -> setRoomCount
-    1:1:void setTag(java.lang.String):293:293 -> setTag
-    1:1:void setUpdateTime(long):301:301 -> setUpdateTime
-    1:1:void setVer(int):136:136 -> setVer
-    1:1:void setWidth(int):161:161 -> setWidth
-    1:1:void setX_min(float):209:209 -> setX_min
-    1:1:void setY_min(float):217:217 -> setY_min
-    1:15:java.lang.String toString():306:320 -> toString
-    1:38:void writeToParcel(android.os.Parcel,int):400:437 -> writeToParcel
+    2:14:com.ldrobot.bean.LDSweepMap clone():141:153 -> clone
+    1:1:com.ldrobot.bean.AiArea getAi_area():65:65 -> getAi_area
+    1:1:java.util.ArrayList getArea():230:230 -> getArea
+    1:1:int getAutoAreaId():85:85 -> getAutoAreaId
+    1:1:int getBase64_len():190:190 -> getBase64_len
+    1:1:int getChargeHandlePhi():270:270 -> getChargeHandlePhi
+    1:1:android.graphics.PointF getChargeHandlePoint():278:278 -> getChargeHandlePoint
+    1:1:int[] getChargeHandlePos():262:262 -> getChargeHandlePos
+    1:1:java.util.ArrayList getCleanArea():238:238 -> getCleanArea
+    1:1:long getCurPathUpdateTime():125:125 -> getCurPathUpdateTime
+    1:1:int getCurState():117:117 -> getCurState
+    1:1:int getHeight():166:166 -> getHeight
+    1:1:int getIsDoneNormal():101:101 -> getIsDoneNormal
+    1:1:int getIsDown():246:246 -> getIsDown
+    1:1:int getIsError():109:109 -> getIsError
+    1:1:int getLz4_len():174:174 -> getLz4_len
+    1:1:java.lang.String getMap():182:182 -> getMap
+    1:1:int getMapCreateType():356:356 -> getMapCreateType
+    1:1:int getMapDataOffsetLength():340:340 -> getMapDataOffsetLength
+    1:1:int getMapDataType():364:364 -> getMapDataType
+    1:1:int getMapID():77:77 -> getMapID
+    1:1:int getMapId():254:254 -> getMapId
+    1:1:float getMapOx():372:372 -> getMapOx
+    1:1:float getMapOy():380:380 -> getMapOy
+    1:1:int getPathId():93:93 -> getPathId
+    1:1:int getPixLen():348:348 -> getPixLen
+    1:1:float[][] getPosArray():222:222 -> getPosArray
+    1:1:float getResolution():198:198 -> getResolution
+    1:1:int getRobotDirection():502:502 -> getRobotDirection
+    1:1:int getRoomCount():388:388 -> getRoomCount
+    1:1:java.lang.String getTag():290:290 -> getTag
+    1:1:long getUpdateTime():298:298 -> getUpdateTime
+    1:1:int getVer():133:133 -> getVer
+    1:1:int getWidth():158:158 -> getWidth
+    1:1:float getX_min():206:206 -> getX_min
+    1:1:float getY_min():214:214 -> getY_min
+    1:1:void setAi_area(com.ldrobot.bean.AiArea):69:69 -> setAi_area
+    1:1:void setArea(java.util.ArrayList):234:234 -> setArea
+    1:1:void setAutoAreaId(int):89:89 -> setAutoAreaId
+    1:1:void setBase64_len(int):194:194 -> setBase64_len
+    1:1:void setChargeHandlePhi(int):274:274 -> setChargeHandlePhi
+    1:1:void setChargeHandlePoint(android.graphics.PointF):73:73 -> setChargeHandlePoint
+    2:5:void setChargeHandlePoint():282:285 -> setChargeHandlePoint
+    1:1:void setChargeHandlePos(int[]):266:266 -> setChargeHandlePos
+    1:1:void setCleanArea(java.util.ArrayList):242:242 -> setCleanArea
+    1:1:void setCurPathUpdateTime(long):129:129 -> setCurPathUpdateTime
+    1:1:void setCurState(int):121:121 -> setCurState
+    1:1:void setHeight(int):170:170 -> setHeight
+    1:1:void setIsDoneNormal(int):105:105 -> setIsDoneNormal
+    1:1:void setIsDown(int):250:250 -> setIsDown
+    1:1:void setIsError(int):113:113 -> setIsError
+    1:1:void setLz4_len(int):178:178 -> setLz4_len
+    1:1:void setMap(java.lang.String):186:186 -> setMap
+    1:1:void setMapCreateType(int):360:360 -> setMapCreateType
+    1:1:void setMapDataOffsetLength(int):344:344 -> setMapDataOffsetLength
+    1:1:void setMapDataType(int):368:368 -> setMapDataType
+    1:1:void setMapID(int):81:81 -> setMapID
+    1:1:void setMapId(int):258:258 -> setMapId
+    1:1:void setMapOx(float):376:376 -> setMapOx
+    1:1:void setMapOy(float):384:384 -> setMapOy
+    1:1:void setPathId(int):97:97 -> setPathId
+    1:1:void setPixLen(int):352:352 -> setPixLen
+    1:1:void setPosArray(float[][]):226:226 -> setPosArray
+    1:1:void setResolution(float):202:202 -> setResolution
+    1:1:void setRobotDirection(int):498:498 -> setRobotDirection
+    1:1:void setRoomCount(int):392:392 -> setRoomCount
+    1:1:void setTag(java.lang.String):294:294 -> setTag
+    1:1:void setUpdateTime(long):302:302 -> setUpdateTime
+    1:1:void setVer(int):137:137 -> setVer
+    1:1:void setWidth(int):162:162 -> setWidth
+    1:1:void setX_min(float):210:210 -> setX_min
+    1:1:void setY_min(float):218:218 -> setY_min
+    1:15:java.lang.String toString():307:321 -> toString
+    1:39:void writeToParcel(android.os.Parcel,int):402:440 -> writeToParcel
 com.ldrobot.bean.LDSweepMap$1 -> com.ldrobot.bean.LDSweepMap$1:
-    1:1:void <init>():481:481 -> <init>
-    1:1:java.lang.Object createFromParcel(android.os.Parcel):481:481 -> createFromParcel
-    2:2:com.ldrobot.bean.LDSweepMap createFromParcel(android.os.Parcel):484:484 -> createFromParcel
-    1:1:java.lang.Object[] newArray(int):481:481 -> newArray
-    2:2:com.ldrobot.bean.LDSweepMap[] newArray(int):489:489 -> newArray
+    1:1:void <init>():485:485 -> <init>
+    1:1:java.lang.Object createFromParcel(android.os.Parcel):485:485 -> createFromParcel
+    2:2:com.ldrobot.bean.LDSweepMap createFromParcel(android.os.Parcel):488:488 -> createFromParcel
+    1:1:java.lang.Object[] newArray(int):485:485 -> newArray
+    2:2:com.ldrobot.bean.LDSweepMap[] newArray(int):493:493 -> newArray
 com.ldrobot.bean.LdAreaBean -> com.ldrobot.bean.LdAreaBean:
     1:1:void <init>():10:10 -> <init>
     1:1:java.util.List getList():28:28 -> getList
@@ -1883,33 +1885,35 @@ com.ldrobot.bean.SweepErrorCode$ErrorCode -> com.ldrobot.bean.SweepErrorCode$Err
     1:1:java.lang.String toString():193:193 -> toString
 com.ldrobot.bean.SweepPath -> com.ldrobot.bean.SweepPath:
     1:13:void <init>():12:24 -> <init>
-    1:5:void addPosArray(float[][]):101:105 -> addPosArray
-    1:1:java.lang.String getData():49:49 -> getData
-    1:1:int getDataLength():73:73 -> getDataLength
-    1:1:int getHasPathInfo():114:114 -> getHasPathInfo
-    1:1:int getPathId():57:57 -> getPathId
-    1:1:int getPathSize():81:81 -> getPathSize
-    1:1:java.util.ArrayList getPointArrayList():89:89 -> getPointArrayList
-    1:1:int getPointCounts():157:157 -> getPointCounts
-    1:1:float[][] getPosArray():122:122 -> getPosArray
-    1:1:int getStartPos():65:65 -> getStartPos
-    1:1:int getType():130:130 -> getType
-    1:1:int getVersion():93:93 -> getVersion
-    1:1:boolean isRightVersion():41:41 -> isRightVersion
-    1:1:boolean isTag():33:33 -> isTag
-    1:1:void setData(java.lang.String):53:53 -> setData
-    1:1:void setDataLength(int):77:77 -> setDataLength
-    1:1:void setHasPathInfo(int):118:118 -> setHasPathInfo
-    1:1:void setPathId(int):61:61 -> setPathId
-    1:1:void setPathSize(int):85:85 -> setPathSize
-    1:1:void setPointArrayList(java.util.ArrayList):110:110 -> setPointArrayList
-    1:1:void setPointCounts(int):161:161 -> setPointCounts
-    1:1:void setPosArray(float[][]):126:126 -> setPosArray
-    1:1:void setRightVersion(boolean):45:45 -> setRightVersion
-    1:1:void setStartPos(int):69:69 -> setStartPos
-    1:1:void setTag(boolean):37:37 -> setTag
-    1:1:void setType(int):134:134 -> setType
-    1:1:void setVersion(int):97:97 -> setVersion
+    1:5:void addPosArray(float[][]):102:106 -> addPosArray
+    1:1:java.lang.String getData():50:50 -> getData
+    1:1:int getDataLength():74:74 -> getDataLength
+    1:1:int getDirection():170:170 -> getDirection
+    1:1:int getHasPathInfo():115:115 -> getHasPathInfo
+    1:1:int getPathId():58:58 -> getPathId
+    1:1:int getPathSize():82:82 -> getPathSize
+    1:1:java.util.ArrayList getPointArrayList():90:90 -> getPointArrayList
+    1:1:int getPointCounts():158:158 -> getPointCounts
+    1:1:float[][] getPosArray():123:123 -> getPosArray
+    1:1:int getStartPos():66:66 -> getStartPos
+    1:1:int getType():131:131 -> getType
+    1:1:int getVersion():94:94 -> getVersion
+    1:1:boolean isRightVersion():42:42 -> isRightVersion
+    1:1:boolean isTag():34:34 -> isTag
+    1:1:void setData(java.lang.String):54:54 -> setData
+    1:1:void setDataLength(int):78:78 -> setDataLength
+    1:1:void setDirection(int):166:166 -> setDirection
+    1:1:void setHasPathInfo(int):119:119 -> setHasPathInfo
+    1:1:void setPathId(int):62:62 -> setPathId
+    1:1:void setPathSize(int):86:86 -> setPathSize
+    1:1:void setPointArrayList(java.util.ArrayList):111:111 -> setPointArrayList
+    1:1:void setPointCounts(int):162:162 -> setPointCounts
+    1:1:void setPosArray(float[][]):127:127 -> setPosArray
+    1:1:void setRightVersion(boolean):46:46 -> setRightVersion
+    1:1:void setStartPos(int):70:70 -> setStartPos
+    1:1:void setTag(boolean):38:38 -> setTag
+    1:1:void setType(int):135:135 -> setType
+    1:1:void setVersion(int):98:98 -> setVersion
 com.ldrobot.bean.SweepPathP2P -> com.ldrobot.bean.SweepPathP2P:
     1:1:void <init>():8:8 -> <init>
     1:1:com.ldrobot.bean.SweepPathP2P$DataBean getData():22:22 -> getData
